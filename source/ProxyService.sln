@@ -1,0 +1,60 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35103.136
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProxyService.Application", "ProxyService.Application\ProxyService.Application.csproj", "{50FD5987-A694-4FDD-87F9-CCEF32495BFA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProxyService.Domain", "ProxyService.Domain\ProxyService.Domain.csproj", "{8BA24EE6-6EE7-463B-AD99-86C9F78DB93A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProxyService.Infrastructure", "ProxyService.Infrastructure\ProxyService.Infrastructure.csproj", "{1F75F5A5-7A09-4EBE-9558-6830D65E24F9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Web", "Web", "{AE4DB162-28AE-4105-A625-A67A723B4E34}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProxyService.Web", "Web\ProxyService.Web\ProxyService.Web.csproj", "{66D835A4-5546-4AA3-828F-4B79B313EDF9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProxyService.Services", "ProxyService.Services\ProxyService.Services.csproj", "{8B48545D-ED76-4BD7-86CC-41272832136A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProxyService.Services.Contracts", "ProxyService.Services.Contracts\ProxyService.Services.Contracts.csproj", "{08F60F02-345B-4C69-BF23-12A94C747D5B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5632E180-6FC6-4D4C-A1FB-F0588537752B}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{50FD5987-A694-4FDD-87F9-CCEF32495BFA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{50FD5987-A694-4FDD-87F9-CCEF32495BFA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{50FD5987-A694-4FDD-87F9-CCEF32495BFA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{50FD5987-A694-4FDD-87F9-CCEF32495BFA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8BA24EE6-6EE7-463B-AD99-86C9F78DB93A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8BA24EE6-6EE7-463B-AD99-86C9F78DB93A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8BA24EE6-6EE7-463B-AD99-86C9F78DB93A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8BA24EE6-6EE7-463B-AD99-86C9F78DB93A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1F75F5A5-7A09-4EBE-9558-6830D65E24F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F75F5A5-7A09-4EBE-9558-6830D65E24F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F75F5A5-7A09-4EBE-9558-6830D65E24F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F75F5A5-7A09-4EBE-9558-6830D65E24F9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{66D835A4-5546-4AA3-828F-4B79B313EDF9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66D835A4-5546-4AA3-828F-4B79B313EDF9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66D835A4-5546-4AA3-828F-4B79B313EDF9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66D835A4-5546-4AA3-828F-4B79B313EDF9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8B48545D-ED76-4BD7-86CC-41272832136A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B48545D-ED76-4BD7-86CC-41272832136A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B48545D-ED76-4BD7-86CC-41272832136A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B48545D-ED76-4BD7-86CC-41272832136A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{08F60F02-345B-4C69-BF23-12A94C747D5B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{08F60F02-345B-4C69-BF23-12A94C747D5B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{08F60F02-345B-4C69-BF23-12A94C747D5B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{08F60F02-345B-4C69-BF23-12A94C747D5B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{66D835A4-5546-4AA3-828F-4B79B313EDF9} = {AE4DB162-28AE-4105-A625-A67A723B4E34}
+	EndGlobalSection
+EndGlobal
