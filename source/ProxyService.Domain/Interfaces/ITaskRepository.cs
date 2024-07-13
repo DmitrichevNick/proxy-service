@@ -1,7 +1,9 @@
-﻿using Task = ProxyService.Domain.Entities.Task;
+﻿using ProxyService.Services.Common;
+using Task = ProxyService.Domain.Entities.Task;
 
 namespace ProxyService.Domain.Interfaces
 {
+    [ServiceContract]
     public interface ITaskRepository
     {
         Task GetById(int id);

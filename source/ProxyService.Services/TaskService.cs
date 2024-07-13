@@ -1,26 +1,59 @@
-﻿using ProxyService.Services.Contracts;
+﻿using ProxyService.Application.DTOs;
+using ProxyService.Domain.Interfaces;
+using ProxyService.Services.Common;
+using ProxyService.Services.Contracts;
+using Task = ProxyService.Domain.Entities.Task;
 
 namespace ProxyService.Services;
 
+[Service]
 public class TaskService : ITaskService
 {
-    public void Add(Domain.Entities.Task task)
+    private readonly ITaskRepository _repository;
+
+    public TaskService(ITaskRepository repository)
     {
-        throw new NotImplementedException();
+        _repository = repository;
     }
 
-    public void Delete(Domain.Entities.Task task)
+    public Task GetById(int id)
     {
-        throw new NotImplementedException();
+        var task = _repository.GetById(id);
+        if (task == null)
+        {
+            throw new Exception("Task not found.");
+        }
+        return task;
     }
 
-    public Domain.Entities.Task GetById(int id)
+    public Task CreateTask(TaskDto taskDto)
     {
-        throw new NotImplementedException();
+        var task = new Task { Title = taskDto.Title, Description = taskDto.Description, IsComplete = taskDto.IsComplete };
+        _repository.Add(task);
+        return task;
     }
 
-    public void Update(Domain.Entities.Task task)
+    public Task UpdateTask(int id, TaskDto taskDto)
     {
-        throw new NotImplementedException();
+        var task = _repository.GetById(id);
+        if (task == null)
+        {
+            throw new Exception("Task not found.");
+        }
+        task.Title = taskDto.Title;
+        task.Description = taskDto.Description;
+        task.IsComplete = taskDto.IsComplete;
+        _repository.Update(task);
+        return task;
+    }
+
+    public void DeleteTask(int id)
+    {
+        var task = _repository.GetById(id);
+        if (task == null)
+        {
+            throw new Exception("Task not found.");
+        }
+        _repository.Delete(task);
     }
 }

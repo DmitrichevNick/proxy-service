@@ -1,8 +1,10 @@
 ﻿using ProxyService.Domain.Interfaces;
+using ProxyService.Services.Common;
 using Task = ProxyService.Domain.Entities.Task;
 
 namespace ProxyService.Infrastructure.Repositories
 {
+    [Service]
     public class TaskRepository : ITaskRepository
     {
         private readonly ApplicationDbContext _context;

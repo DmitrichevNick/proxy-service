@@ -17,6 +17,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProxyService.Services", "Pr
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProxyService.Services.Contracts", "ProxyService.Services.Contracts\ProxyService.Services.Contracts.csproj", "{08F60F02-345B-4C69-BF23-12A94C747D5B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProxyService.Services.Proxies", "ProxyService.Services.Proxies\ProxyService.Services.Proxies.csproj", "{FCBBAAFA-5EAD-4416-9014-6DA1EDB9D4F1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProxyService.Services.Common", "ProxyService.Services.Common\ProxyService.Services.Common.csproj", "{4480E5AE-FF4C-4437-AA4E-598AB6FB9D8D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -53,6 +57,14 @@ Global
 		{08F60F02-345B-4C69-BF23-12A94C747D5B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{08F60F02-345B-4C69-BF23-12A94C747D5B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{08F60F02-345B-4C69-BF23-12A94C747D5B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FCBBAAFA-5EAD-4416-9014-6DA1EDB9D4F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FCBBAAFA-5EAD-4416-9014-6DA1EDB9D4F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FCBBAAFA-5EAD-4416-9014-6DA1EDB9D4F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FCBBAAFA-5EAD-4416-9014-6DA1EDB9D4F1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4480E5AE-FF4C-4437-AA4E-598AB6FB9D8D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4480E5AE-FF4C-4437-AA4E-598AB6FB9D8D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4480E5AE-FF4C-4437-AA4E-598AB6FB9D8D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4480E5AE-FF4C-4437-AA4E-598AB6FB9D8D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{66D835A4-5546-4AA3-828F-4B79B313EDF9} = {AE4DB162-28AE-4105-A625-A67A723B4E34}

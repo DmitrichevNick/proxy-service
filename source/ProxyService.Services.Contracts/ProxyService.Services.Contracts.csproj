@@ -7,7 +7,9 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\ProxyService.Application\ProxyService.Application.csproj" />
     <ProjectReference Include="..\ProxyService.Domain\ProxyService.Domain.csproj" />
+    <ProjectReference Include="..\ProxyService.Services.Common\ProxyService.Services.Common.csproj" />
   </ItemGroup>
 
 </Project>

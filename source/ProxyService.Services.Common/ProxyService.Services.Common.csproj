@@ -6,8 +6,4 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
-  <ItemGroup>
-    <ProjectReference Include="..\ProxyService.Services.Common\ProxyService.Services.Common.csproj" />
-  </ItemGroup>
-
 </Project>
