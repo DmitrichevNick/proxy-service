@@ -1,3 +1,4 @@
+using System.Diagnostics;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Options;
@@ -6,6 +7,7 @@ using ProxyService.Domain.Interfaces;
 using ProxyService.Infrastructure;
 using ProxyService.Infrastructure.Repositories;
 using ProxyService.Services.Common;
+using ProxyService.Web.Controllers;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -15,13 +17,15 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddDbContext<ApplicationDbContext>(options => options.UseInMemoryDatabase("TaskManagerdb"));
 
-
+Debug.WriteLine(ServicesCollector.Collect().Count());
 foreach(var pair in ServicesCollector.Collect())
     builder.Services.AddScoped(pair.Item1, pair.Item2);
 
+builder.Services.AddControllers();
 
 var app = builder.Build();
-
+app.UseRouting();
+app.MapControllers();
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {

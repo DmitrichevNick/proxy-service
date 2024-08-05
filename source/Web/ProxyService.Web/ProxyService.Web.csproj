@@ -17,6 +17,8 @@
     <ProjectReference Include="..\..\ProxyService.Domain\ProxyService.Domain.csproj" />
     <ProjectReference Include="..\..\ProxyService.Infrastructure\ProxyService.Infrastructure.csproj" />
     <ProjectReference Include="..\..\ProxyService.Services.Common\ProxyService.Services.Common.csproj" />
+    <ProjectReference Include="..\..\ProxyService.Services.Contracts\ProxyService.Services.Contracts.csproj" />
+    <ProjectReference Include="..\..\ProxyService.Services\ProxyService.Services.csproj" />
   </ItemGroup>
 
 </Project>
