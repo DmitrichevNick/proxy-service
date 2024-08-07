@@ -12,14 +12,9 @@ namespace ProxyService.Web.Controllers
     {
         private readonly ITaskService _service;
 
-        public TaskController(ITaskService service)
+        public TaskController(IServiceProvider serviceProvider)
         {
-            _service = service;
-        }
-
-         public TaskController()
-        {
-            //_service = service;
+	        _service = serviceProvider.GetService<ITaskService>();
         }
 
         [HttpGet("get-tasks")]

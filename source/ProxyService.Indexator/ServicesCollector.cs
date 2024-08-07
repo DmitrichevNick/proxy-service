@@ -1,16 +1,13 @@
 ﻿using System.Diagnostics;
 using System.Reflection;
+using ProxyService.Services.Common;
 
-namespace ProxyService.Services.Common
+namespace ProxyService.Indexator
 {
 	public class ServicesCollector
 	{
-		public static IEnumerable<(Type, Type)> Collect()
+		public static IEnumerable<(Type, Type)> Collect(IEnumerable<Type> types)
 		{
-
-			var assemblies = AppDomain.CurrentDomain.GetAssemblies();
-			var types = assemblies.SelectMany(assembly => assembly.GetTypes());
-
 			var services = GetServices(types);
 			var contracts = GetServicesContracts(services);
 
