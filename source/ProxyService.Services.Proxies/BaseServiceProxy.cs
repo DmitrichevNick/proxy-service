@@ -6,7 +6,7 @@
         public TService Service { get => _service ?? (_service = (TService)new object()); }
         protected BaseServiceProxy()
         {
-            typeof(TService).GetMethods()
+            //typeof(TService).GetMethods()
         }
 
         protected void Invoke()
@@ -14,9 +14,9 @@
 
         }
 
-        public static TService Create(IServiceProvider serviceProvider)
-        {
-            serviceProvider.GetService
-        }
+        //public static TService Create(IServiceProvider serviceProvider)
+        //{
+        //    serviceProvider.GetService
+        //}
     }
 }
