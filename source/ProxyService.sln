@@ -23,6 +23,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProxyService.Services.Commo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProxyService.Infrastructure.Tests", "ProxyService.Infrastructure.Tests\ProxyService.Infrastructure.Tests.csproj", "{DC074D50-F51E-40A3-8FFA-F153E326C3BD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProxyService.Indexator", "ProxyService.Indexator\ProxyService.Indexator.csproj", "{348D4CD0-8810-4CD8-97F0-2E0D5F05DEE1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -61,6 +63,10 @@ Global
 		{4480E5AE-FF4C-4437-AA4E-598AB6FB9D8D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4480E5AE-FF4C-4437-AA4E-598AB6FB9D8D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4480E5AE-FF4C-4437-AA4E-598AB6FB9D8D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{348D4CD0-8810-4CD8-97F0-2E0D5F05DEE1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{348D4CD0-8810-4CD8-97F0-2E0D5F05DEE1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{348D4CD0-8810-4CD8-97F0-2E0D5F05DEE1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{348D4CD0-8810-4CD8-97F0-2E0D5F05DEE1}.Release|Any CPU.Build.0 = Release|Any CPU
 		{DC074D50-F51E-40A3-8FFA-F153E326C3BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{DC074D50-F51E-40A3-8FFA-F153E326C3BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DC074D50-F51E-40A3-8FFA-F153E326C3BD}.Release|Any CPU.ActiveCfg = Release|Any CPU

@@ -1,20 +1,29 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using ProxyService.Application.DTOs;
 using ProxyService.Application.Services;
+using ProxyService.Services.Contracts;
 using Task = ProxyService.Domain.Entities.Task;
 
 namespace ProxyService.Web.Controllers
 {
     [ApiController]
-    [Route("[controller]")]
+    [Route("tasks")]
     public class TaskController : ControllerBase
     {
-        private readonly TaskService _service;
+        private readonly ITaskService _service;
 
-        public TaskController(TaskService service)
+        public TaskController(IServiceProvider serviceProvider)
         {
-            _service = service;
+	        _service = serviceProvider.GetService<ITaskService>();
         }
+
+        [HttpGet("get-tasks")]
+        public ActionResult<IList<Task>> GetTasks()
+        {
+           
+            return Ok(new List<Task>{new Task(),new Task()});
+        }
+
         [HttpGet("{id}")]
         public ActionResult<Task> GetById(int id)
         {

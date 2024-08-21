@@ -14,9 +14,9 @@
 
         }
 
-        //public static TService Create(IServiceProvider serviceProvider)
-        //{
-        //    serviceProvider.GetService
-        //}
+        public static TService Create(IServiceProvider serviceProvider)
+        {
+            return (TService)serviceProvider.GetService(typeof(TService));
+        }
     }
 }
