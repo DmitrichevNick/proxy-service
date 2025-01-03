@@ -1,34 +1,49 @@
 # syntax=docker/dockerfile:1
 
-# Comments are provided throughout this file to help you get started.
-# If you need more help, visit the Dockerfile reference guide at
-# https://docs.docker.com/go/dockerfile-reference/
-
-# Want to help us make this template better? Share your feedback here: https://forms.gle/ybq9Krt8jtBL3iCk7
-
-################################################################################
-
-# Learn about building .NET container images:
-# https://github.com/dotnet/dotnet-docker/blob/main/samples/README.md
-
 # Create a stage for building the application.
 FROM --platform=$BUILDPLATFORM mcr.microsoft.com/dotnet/sdk:8.0-alpine AS build
-
-COPY . /source
-
-WORKDIR /source/Web/ProxyService.Web
+# Copy .sln file
+COPY *.sln /p/source/
+# Copy everything else
+COPY . /p/source/
+WORKDIR /p/source
+# Restore
+RUN dotnet restore
+RUN dotnet build -c Debug
+#RUN dotnet test -c Release
+#WORKDIR /source/Web/ProxyService.Web
 
 
 # This is the architecture you’re building for, which is passed in by the builder.
 # Placing it here allows the previous steps to be cached across architectures.
-ARG TARGETARCH
+#ARG TARGETARCH
 
 # Build the application.
 # Leverage a cache mount to /root/.nuget/packages so that subsequent builds don't have to re-download packages.
 # If TARGETARCH is "amd64", replace it with "x64" - "x64" is .NET's canonical name for this and "amd64" doesn't
 #   work in .NET 6.0.
-RUN --mount=type=cache,id=nuget,target=/root/.nuget/packages \
-    dotnet publish -a ${TARGETARCH/amd64/x64} --use-current-runtime --self-contained false -o /app
+#RUN --mount=type=cache,id=nuget,target=/root/.nuget/packages \
+#    dotnet publish -a ${TARGETARCH/amd64/x64} --use-current-runtime --self-contained false -o /app
+#WORKDIR /source
+# test-build builds the xUnit test project
+#FROM build AS test-build
+#WORKDIR /source
+#COPY --link tests/*.csproj tests/
+#WORKDIR /source/tests
+#RUN dotnet restore
+
+#COPY --link tests/ .
+#RUN dotnet build --no-restore
+
+# test-entrypoint exposes tests as the default executable for the stage
+FROM build AS test
+WORKDIR /p
+RUN ls
+COPY --from=build /bin /bin/
+RUN ls bin/net8.0/*
+RUN ls bin/net8.0/*Tests.dll
+RUN dotnet test bin/net8.0/*Tests.dll
+ENTRYPOINT ["dotnet", "test", "bin/net8.0/*Tests.dll", "--no-build", "--logger:trx"]
 
 # If you need to enable globalization and time zones:
 # https://github.com/dotnet/dotnet-docker/blob/main/samples/enable-globalization.md
