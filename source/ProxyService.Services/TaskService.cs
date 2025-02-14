@@ -16,12 +16,12 @@ namespace ProxyService.Services
 			_repository = repository;
 		}
 
-		public Task GetById(int id)
+		public Task GetById(int id, int id2)
 		{
 			var task = _repository.GetById(id);
 			if (task == null)
 			{
-				throw new Exception("Task not found.");
+				//throw new Exception("Task not found.");
 			}
 			return task;
 		}

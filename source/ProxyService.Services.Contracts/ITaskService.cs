@@ -11,7 +11,7 @@
 
 		void DeleteTask(int id);
 
-		Task GetById(int id);
+		Task GetById(int id, int id2);
 
 		Task UpdateTask(int id, TaskDto taskDto);
 	}

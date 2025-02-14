@@ -2,6 +2,7 @@
 using ProxyService.Application.DTOs;
 using ProxyService.Application.Services;
 using ProxyService.Services.Contracts;
+using ProxyService.Services.Proxies;
 using Task = ProxyService.Domain.Entities.Task;
 
 namespace ProxyService.Web.Controllers
@@ -11,10 +12,12 @@ namespace ProxyService.Web.Controllers
     public class TaskController : ControllerBase
     {
         private readonly ITaskService _service;
+        private readonly IServiceProvider _serviceProvider;
 
         public TaskController(IServiceProvider serviceProvider)
         {
-	        _service = serviceProvider.GetService<ITaskService>();
+            _serviceProvider = serviceProvider;
+            _service = serviceProvider.GetService<ITaskService>();
         }
 
         [HttpGet("get-tasks")]
@@ -24,23 +27,26 @@ namespace ProxyService.Web.Controllers
             return Ok(new List<Task>{new Task(),new Task()});
         }
 
-        [HttpGet("{id}")]
+        [HttpGet]
         public ActionResult<Task> GetById(int id)
         {
-            var task = _service.GetById(id);
+            var task = _service.GetById(id, 1);
             if (task == null)
             {
-                return NotFound();
+                //return NotFound();
             }
             return Ok(task);
         }
 
         [HttpPost]
-        public ActionResult<Task> Create(Task request)
+        public ActionResult<Task> Create(TaskDto request)
         {
-            var taskDto = new TaskDto { Title = request.Title, Description = request.Description, IsComplete = request.IsComplete };
-            var task = _service.CreateTask(taskDto);
-            return CreatedAtAction(nameof(GetById), new { id = task.Id }, task);
+            var proxyManager = new ProxyService.Services.Proxies.ProxyManager(new ProxyInvoker(_serviceProvider));
+            var proxy = proxyManager.CreateProxy<ITaskService>();
+            proxy.CreateTask(request);
+            //var taskDto = new TaskDto { Title = request.Title, Description = request.Description, IsComplete = request.IsComplete };
+            //var task = _service.CreateTask(taskDto);
+            return CreatedAtAction(nameof(GetById), new { id = 1}, null);
         }
 
         [HttpPut("{id}")]

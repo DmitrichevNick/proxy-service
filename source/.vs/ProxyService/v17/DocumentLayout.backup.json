@@ -1,7 +1,59 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Repos\\github\\proxy-service\\source\\",
+  "WorkspaceRootPath": "C:\\repos\\github\\proxy-service\\source\\",
   "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{FCBBAAFA-5EAD-4416-9014-6DA1EDB9D4F1}|ProxyService.Services.Proxies\\ProxyService.Services.Proxies.csproj|c:\\repos\\github\\proxy-service\\source\\proxyservice.services.proxies\\proxyinvoker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FCBBAAFA-5EAD-4416-9014-6DA1EDB9D4F1}|ProxyService.Services.Proxies\\ProxyService.Services.Proxies.csproj|solutionrelative:proxyservice.services.proxies\\proxyinvoker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{66D835A4-5546-4AA3-828F-4B79B313EDF9}|Web\\ProxyService.Web\\ProxyService.Web.csproj|c:\\repos\\github\\proxy-service\\source\\web\\proxyservice.web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{66D835A4-5546-4AA3-828F-4B79B313EDF9}|Web\\ProxyService.Web\\ProxyService.Web.csproj|solutionrelative:web\\proxyservice.web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08F60F02-345B-4C69-BF23-12A94C747D5B}|ProxyService.Services.Contracts\\ProxyService.Services.Contracts.csproj|c:\\repos\\github\\proxy-service\\source\\proxyservice.services.contracts\\itaskservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{08F60F02-345B-4C69-BF23-12A94C747D5B}|ProxyService.Services.Contracts\\ProxyService.Services.Contracts.csproj|solutionrelative:proxyservice.services.contracts\\itaskservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{66D835A4-5546-4AA3-828F-4B79B313EDF9}|Web\\ProxyService.Web\\ProxyService.Web.csproj|c:\\repos\\github\\proxy-service\\source\\web\\proxyservice.web\\controllers\\taskcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{66D835A4-5546-4AA3-828F-4B79B313EDF9}|Web\\ProxyService.Web\\ProxyService.Web.csproj|solutionrelative:web\\proxyservice.web\\controllers\\taskcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4480E5AE-FF4C-4437-AA4E-598AB6FB9D8D}|ProxyService.Services.Common\\ProxyService.Services.Common.csproj|c:\\repos\\github\\proxy-service\\source\\proxyservice.services.common\\servicescollector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4480E5AE-FF4C-4437-AA4E-598AB6FB9D8D}|ProxyService.Services.Common\\ProxyService.Services.Common.csproj|solutionrelative:proxyservice.services.common\\servicescollector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FCBBAAFA-5EAD-4416-9014-6DA1EDB9D4F1}|ProxyService.Services.Proxies\\ProxyService.Services.Proxies.csproj|c:\\repos\\github\\proxy-service\\source\\proxyservice.services.proxies\\iproxier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FCBBAAFA-5EAD-4416-9014-6DA1EDB9D4F1}|ProxyService.Services.Proxies\\ProxyService.Services.Proxies.csproj|solutionrelative:proxyservice.services.proxies\\iproxier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FCBBAAFA-5EAD-4416-9014-6DA1EDB9D4F1}|ProxyService.Services.Proxies\\ProxyService.Services.Proxies.csproj|c:\\repos\\github\\proxy-service\\source\\proxyservice.services.proxies\\baseserviceproxy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FCBBAAFA-5EAD-4416-9014-6DA1EDB9D4F1}|ProxyService.Services.Proxies\\ProxyService.Services.Proxies.csproj|solutionrelative:proxyservice.services.proxies\\baseserviceproxy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B48545D-ED76-4BD7-86CC-41272832136A}|ProxyService.Services\\ProxyService.Services.csproj|c:\\repos\\github\\proxy-service\\source\\proxyservice.services\\taskservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B48545D-ED76-4BD7-86CC-41272832136A}|ProxyService.Services\\ProxyService.Services.csproj|solutionrelative:proxyservice.services\\taskservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{66D835A4-5546-4AA3-828F-4B79B313EDF9}|Web\\ProxyService.Web\\ProxyService.Web.csproj|c:\\repos\\github\\proxy-service\\source\\web\\proxyservice.web\\controllers\\helloworldcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{66D835A4-5546-4AA3-828F-4B79B313EDF9}|Web\\ProxyService.Web\\ProxyService.Web.csproj|solutionrelative:web\\proxyservice.web\\controllers\\helloworldcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Repos\\github\\proxy-service\\source\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Repos\\github\\proxy-service\\source\\.vs\\ProjectEvaluation\\proxyservice.strings.v9.bin||{25834150-CD7E-11D0-92DF-00A0C9138C45}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:.vs\\ProjectEvaluation\\proxyservice.strings.v9.bin||{25834150-CD7E-11D0-92DF-00A0C9138C45}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Repos\\github\\proxy-service\\source\\.vs\\ProjectEvaluation\\proxyservice.projects.v9.bin||{25834150-CD7E-11D0-92DF-00A0C9138C45}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:.vs\\ProjectEvaluation\\proxyservice.projects.v9.bin||{25834150-CD7E-11D0-92DF-00A0C9138C45}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Repos\\github\\proxy-service\\source\\.vs\\ProjectEvaluation\\proxyservice.metadata.v9.bin||{25834150-CD7E-11D0-92DF-00A0C9138C45}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:.vs\\ProjectEvaluation\\proxyservice.metadata.v9.bin||{25834150-CD7E-11D0-92DF-00A0C9138C45}"
+    },
     {
       "AbsoluteMoniker": "D:0:0:{DC074D50-F51E-40A3-8FFA-F153E326C3BD}|ProxyService.Infrastructure.Tests\\ProxyService.Infrastructure.Tests.csproj|c:\\repos\\github\\proxy-service\\source\\proxyservice.infrastructure.tests\\unittests\\taskrepositoryunittests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DC074D50-F51E-40A3-8FFA-F153E326C3BD}|ProxyService.Infrastructure.Tests\\ProxyService.Infrastructure.Tests.csproj|solutionrelative:proxyservice.infrastructure.tests\\unittests\\taskrepositoryunittests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
@@ -23,32 +75,8 @@
       "RelativeMoniker": "D:0:0:{4480E5AE-FF4C-4437-AA4E-598AB6FB9D8D}|ProxyService.Services.Common\\ProxyService.Services.Common.csproj|solutionrelative:proxyservice.services.common\\servicecontractattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4480E5AE-FF4C-4437-AA4E-598AB6FB9D8D}|ProxyService.Services.Common\\ProxyService.Services.Common.csproj|c:\\repos\\github\\proxy-service\\source\\proxyservice.services.common\\servicescollector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4480E5AE-FF4C-4437-AA4E-598AB6FB9D8D}|ProxyService.Services.Common\\ProxyService.Services.Common.csproj|solutionrelative:proxyservice.services.common\\servicescollector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{08F60F02-345B-4C69-BF23-12A94C747D5B}|ProxyService.Services.Contracts\\ProxyService.Services.Contracts.csproj|c:\\repos\\github\\proxy-service\\source\\proxyservice.services.contracts\\itaskservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{08F60F02-345B-4C69-BF23-12A94C747D5B}|ProxyService.Services.Contracts\\ProxyService.Services.Contracts.csproj|solutionrelative:proxyservice.services.contracts\\itaskservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FCBBAAFA-5EAD-4416-9014-6DA1EDB9D4F1}|ProxyService.Services.Proxies\\ProxyService.Services.Proxies.csproj|c:\\repos\\github\\proxy-service\\source\\proxyservice.services.proxies\\taskserviceproxy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FCBBAAFA-5EAD-4416-9014-6DA1EDB9D4F1}|ProxyService.Services.Proxies\\ProxyService.Services.Proxies.csproj|solutionrelative:proxyservice.services.proxies\\taskserviceproxy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FCBBAAFA-5EAD-4416-9014-6DA1EDB9D4F1}|ProxyService.Services.Proxies\\ProxyService.Services.Proxies.csproj|c:\\repos\\github\\proxy-service\\source\\proxyservice.services.proxies\\baseserviceproxy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FCBBAAFA-5EAD-4416-9014-6DA1EDB9D4F1}|ProxyService.Services.Proxies\\ProxyService.Services.Proxies.csproj|solutionrelative:proxyservice.services.proxies\\baseserviceproxy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{1F75F5A5-7A09-4EBE-9558-6830D65E24F9}|ProxyService.Infrastructure\\ProxyService.Infrastructure.csproj|c:\\repos\\github\\proxy-service\\source\\proxyservice.infrastructure\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1F75F5A5-7A09-4EBE-9558-6830D65E24F9}|ProxyService.Infrastructure\\ProxyService.Infrastructure.csproj|solutionrelative:proxyservice.infrastructure\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8B48545D-ED76-4BD7-86CC-41272832136A}|ProxyService.Services\\ProxyService.Services.csproj|c:\\repos\\github\\proxy-service\\source\\proxyservice.services\\taskservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8B48545D-ED76-4BD7-86CC-41272832136A}|ProxyService.Services\\ProxyService.Services.csproj|solutionrelative:proxyservice.services\\taskservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{66D835A4-5546-4AA3-828F-4B79B313EDF9}|Web\\ProxyService.Web\\ProxyService.Web.csproj|c:\\repos\\github\\proxy-service\\source\\web\\proxyservice.web\\controllers\\taskcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{66D835A4-5546-4AA3-828F-4B79B313EDF9}|Web\\ProxyService.Web\\ProxyService.Web.csproj|solutionrelative:web\\proxyservice.web\\controllers\\taskcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{50FD5987-A694-4FDD-87F9-CCEF32495BFA}|ProxyService.Application\\ProxyService.Application.csproj|c:\\repos\\github\\proxy-service\\source\\proxyservice.application\\services\\taskservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -80,110 +108,164 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
-            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "TaskRepositoryUnitTests.cs",
-              "DocumentMoniker": "C:\\Repos\\github\\proxy-service\\source\\ProxyService.Infrastructure.Tests\\UnitTests\\TaskRepositoryUnitTests.cs",
-              "RelativeDocumentMoniker": "ProxyService.Infrastructure.Tests\\UnitTests\\TaskRepositoryUnitTests.cs",
-              "ToolTip": "C:\\Repos\\github\\proxy-service\\source\\ProxyService.Infrastructure.Tests\\UnitTests\\TaskRepositoryUnitTests.cs*",
-              "RelativeToolTip": "ProxyService.Infrastructure.Tests\\UnitTests\\TaskRepositoryUnitTests.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAABBAAAAAAAAAA==",
+              "Title": "ProxyInvoker.cs",
+              "DocumentMoniker": "C:\\repos\\github\\proxy-service\\source\\ProxyService.Services.Proxies\\ProxyInvoker.cs",
+              "RelativeDocumentMoniker": "ProxyService.Services.Proxies\\ProxyInvoker.cs",
+              "ToolTip": "C:\\repos\\github\\proxy-service\\source\\ProxyService.Services.Proxies\\ProxyInvoker.cs",
+              "RelativeToolTip": "ProxyService.Services.Proxies\\ProxyInvoker.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-21T20:58:34.647Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "TaskRepository.cs",
-              "DocumentMoniker": "C:\\Repos\\github\\proxy-service\\source\\ProxyService.Infrastructure\\Repositories\\TaskRepository.cs",
-              "RelativeDocumentMoniker": "ProxyService.Infrastructure\\Repositories\\TaskRepository.cs",
-              "ToolTip": "C:\\Repos\\github\\proxy-service\\source\\ProxyService.Infrastructure\\Repositories\\TaskRepository.cs",
-              "RelativeToolTip": "ProxyService.Infrastructure\\Repositories\\TaskRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAcAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-21T20:57:50.7Z",
+              "WhenOpened": "2025-02-14T23:36:20.116Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Class1.cs",
-              "DocumentMoniker": "C:\\Repos\\github\\proxy-service\\source\\ProxyService.Domain\\Class1.cs",
-              "RelativeDocumentMoniker": "ProxyService.Domain\\Class1.cs",
-              "ToolTip": "C:\\Repos\\github\\proxy-service\\source\\ProxyService.Domain\\Class1.cs",
-              "RelativeToolTip": "ProxyService.Domain\\Class1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-21T20:57:45.349Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
               "Title": "ITaskService.cs",
-              "DocumentMoniker": "C:\\Repos\\github\\proxy-service\\source\\ProxyService.Services.Contracts\\ITaskService.cs",
+              "DocumentMoniker": "C:\\repos\\github\\proxy-service\\source\\ProxyService.Services.Contracts\\ITaskService.cs",
               "RelativeDocumentMoniker": "ProxyService.Services.Contracts\\ITaskService.cs",
-              "ToolTip": "C:\\Repos\\github\\proxy-service\\source\\ProxyService.Services.Contracts\\ITaskService.cs",
+              "ToolTip": "C:\\repos\\github\\proxy-service\\source\\ProxyService.Services.Contracts\\ITaskService.cs",
               "RelativeToolTip": "ProxyService.Services.Contracts\\ITaskService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-21T20:57:32.756Z",
+              "WhenOpened": "2025-02-14T23:24:48.319Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 4,
               "Title": "ServicesCollector.cs",
-              "DocumentMoniker": "C:\\Repos\\github\\proxy-service\\source\\ProxyService.Services.Common\\ServicesCollector.cs",
+              "DocumentMoniker": "C:\\repos\\github\\proxy-service\\source\\ProxyService.Services.Common\\ServicesCollector.cs",
               "RelativeDocumentMoniker": "ProxyService.Services.Common\\ServicesCollector.cs",
-              "ToolTip": "C:\\Repos\\github\\proxy-service\\source\\ProxyService.Services.Common\\ServicesCollector.cs",
+              "ToolTip": "C:\\repos\\github\\proxy-service\\source\\ProxyService.Services.Common\\ServicesCollector.cs",
               "RelativeToolTip": "ProxyService.Services.Common\\ServicesCollector.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBMAAAAUAAAAAAAAAA==",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAAABMAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-13T22:23:24.388Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "TaskServiceProxy.cs",
-              "DocumentMoniker": "C:\\Repos\\github\\proxy-service\\source\\ProxyService.Services.Proxies\\TaskServiceProxy.cs",
-              "RelativeDocumentMoniker": "ProxyService.Services.Proxies\\TaskServiceProxy.cs",
-              "ToolTip": "C:\\Repos\\github\\proxy-service\\source\\ProxyService.Services.Proxies\\TaskServiceProxy.cs",
-              "RelativeToolTip": "ProxyService.Services.Proxies\\TaskServiceProxy.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAwAAAAAAAAAA==",
+              "DocumentIndex": 10,
+              "Title": "proxyservice.strings.v9.bin",
+              "DocumentMoniker": "C:\\repos\\github\\proxy-service\\source\\.vs\\ProjectEvaluation\\proxyservice.strings.v9.bin",
+              "RelativeDocumentMoniker": ".vs\\ProjectEvaluation\\proxyservice.strings.v9.bin",
+              "ToolTip": "C:\\repos\\github\\proxy-service\\source\\.vs\\ProjectEvaluation\\proxyservice.strings.v9.bin",
+              "RelativeToolTip": ".vs\\ProjectEvaluation\\proxyservice.strings.v9.bin",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAANdSURBVDhPbVNNbNtkGH4\u002B258b23HihLbRkq6sTTW6dOs0SsuoaDlMVdYTQxxpJ\u002BDAZVKlSXBHrBIS4sCNE\u002BI2IcS4oYkDsGobXVeKOpGidTT9b9JtzY/jJE7t2OZzGyEh7bm8sp/3fb7nfd/vI3gBBgdSPbIUn1DV7j5B4Ihp7m0Z1dyvS8uP/m6lHMPzvP8JDF84351ITH51IjH9tqz0c6pKoGlAOAw0zKz3aPnmnb8yt2fuzz/ItErAtyLGR0cvvjk2eyd17qMhSjuIZRGIIiDLgKIAnbEoeW34rZ7e3v73q5WtzPrmxqpfdyQw8urgyfTkjbn\u002BVLrdcwHbBnQdsFgMBABVBTTmwo/Jvm7am\u002By7srf7\u002BOftnZ0c5wucPTfx5cU30u3BICCxEz32r\u002BkAhnEs5oMXmBPGB5nI\u002BPioNDEx\u002BfXAQIrjzp7pS6QvT73rEyF2im/Z7zkSqaJauWXu5743ZKnMvhkfOub83OmrU0NaSB3j2l/qvHRhaJCPsgR/YJ2dQDxex9LiB99tbH2RmLt7o\u002BPbb6Y/DYdKns\u002B10UPo\u002BXU0ck9IWBLTwon4yR5NI3BZ70Fm1xfZyP5ilSs7Mw8fLpZ8\u002B9ah\u002Bdntm59/OJYMd9dLT8FRkQ2YRyxMkxzPxujbikaBWAzo6nKhiEXPaTato\u002BYZnvyz7tX3Hru0nEVU8hBRRagSBc8RXsjndjeJ20BhdwNPV5dg55Zx2qm3JULC7GHq9HWrUXfiWvBjtWa\u002BvL52ACnShKg4oFRAvljf5BU5UKT7mZm24goXEXQEnCoqByXEODISsK1r6VTH9Utx5Yr\u002B3CC1hgubULYZF7mC7t3f1Gf5ZwfFyqmu9vPp4eSZes1CoWjiYL\u002BEYr6EhOjIryeEYCQA0mhyKJgEDcuF47iYyz5f3S7VPjm6SC5VFlRKroaoIOnlOkplNumKiZBMEdFkqGEVh7wEm92Nat1GtmDYmao3tfjH0tqRQG7/ma67bfMBz3lHIVygopuwLIftXUZYUxFSZTTZlhzXw1qhaj\u002BoeNfuzS/84Nf\u002B9xa29/LbVar\u002BmC8ar3C21atSnoQVASpzEQwI2CrWvJ/WSpk/De69u78v3GqV4YXPeWR4aFAi3mVN5E6JlBOMJvKGw/1W1o17KysrzVYaA/Avt6JbNFrqL\u002B4AAAAASUVORK5CYII=",
+              "WhenOpened": "2024-08-21T21:14:13.305Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\repos\\github\\proxy-service\\source\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\repos\\github\\proxy-service\\source\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-13T21:43:17.319Z",
+              "WhenOpened": "2024-08-21T21:14:35.728Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "TaskService.cs",
+              "DocumentMoniker": "C:\\repos\\github\\proxy-service\\source\\ProxyService.Services\\TaskService.cs",
+              "RelativeDocumentMoniker": "ProxyService.Services\\TaskService.cs",
+              "ToolTip": "C:\\repos\\github\\proxy-service\\source\\ProxyService.Services\\TaskService.cs",
+              "RelativeToolTip": "ProxyService.Services\\TaskService.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAUwBYAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-13T21:17:12.333Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "TaskController.cs",
+              "DocumentMoniker": "C:\\repos\\github\\proxy-service\\source\\Web\\ProxyService.Web\\Controllers\\TaskController.cs",
+              "RelativeDocumentMoniker": "Web\\ProxyService.Web\\Controllers\\TaskController.cs",
+              "ToolTip": "C:\\repos\\github\\proxy-service\\source\\Web\\ProxyService.Web\\Controllers\\TaskController.cs",
+              "RelativeToolTip": "Web\\ProxyService.Web\\Controllers\\TaskController.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAowCsAAABeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-13T21:03:13.881Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "TaskService.cs",
-              "DocumentMoniker": "C:\\Repos\\github\\proxy-service\\source\\ProxyService.Services\\TaskService.cs",
-              "RelativeDocumentMoniker": "ProxyService.Services\\TaskService.cs",
-              "ToolTip": "C:\\Repos\\github\\proxy-service\\source\\ProxyService.Services\\TaskService.cs",
-              "RelativeToolTip": "ProxyService.Services\\TaskService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAIAAAAAAAAAA==",
+              "DocumentIndex": 15,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\repos\\github\\proxy-service\\source\\ProxyService.Domain\\Class1.cs",
+              "RelativeDocumentMoniker": "ProxyService.Domain\\Class1.cs",
+              "ToolTip": "C:\\repos\\github\\proxy-service\\source\\ProxyService.Domain\\Class1.cs",
+              "RelativeToolTip": "ProxyService.Domain\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-13T21:17:12.333Z",
+              "WhenOpened": "2024-08-21T20:57:45.349Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "TaskRepository.cs",
+              "DocumentMoniker": "C:\\repos\\github\\proxy-service\\source\\ProxyService.Infrastructure\\Repositories\\TaskRepository.cs",
+              "RelativeDocumentMoniker": "ProxyService.Infrastructure\\Repositories\\TaskRepository.cs",
+              "ToolTip": "C:\\repos\\github\\proxy-service\\source\\ProxyService.Infrastructure\\Repositories\\TaskRepository.cs",
+              "RelativeToolTip": "ProxyService.Infrastructure\\Repositories\\TaskRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAcAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-21T20:57:50.7Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IProxier.cs",
+              "DocumentMoniker": "C:\\repos\\github\\proxy-service\\source\\ProxyService.Services.Proxies\\IProxier.cs",
+              "RelativeDocumentMoniker": "ProxyService.Services.Proxies\\IProxier.cs",
+              "ToolTip": "C:\\repos\\github\\proxy-service\\source\\ProxyService.Services.Proxies\\IProxier.cs",
+              "RelativeToolTip": "ProxyService.Services.Proxies\\IProxier.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-14T21:16:03.62Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\repos\\github\\proxy-service\\source\\Web\\ProxyService.Web\\Program.cs",
+              "RelativeDocumentMoniker": "Web\\ProxyService.Web\\Program.cs",
+              "ToolTip": "C:\\repos\\github\\proxy-service\\source\\Web\\ProxyService.Web\\Program.cs",
+              "RelativeToolTip": "Web\\ProxyService.Web\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAABaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-18T18:38:19.417Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
+              "Title": "HelloWorldController.cs",
+              "DocumentMoniker": "C:\\repos\\github\\proxy-service\\source\\Web\\ProxyService.Web\\Controllers\\HelloWorldController.cs",
+              "RelativeDocumentMoniker": "Web\\ProxyService.Web\\Controllers\\HelloWorldController.cs",
+              "ToolTip": "C:\\repos\\github\\proxy-service\\source\\Web\\ProxyService.Web\\Controllers\\HelloWorldController.cs",
+              "RelativeToolTip": "Web\\ProxyService.Web\\Controllers\\HelloWorldController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-21T21:12:46.91Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "BaseServiceProxy.cs",
-              "DocumentMoniker": "C:\\Repos\\github\\proxy-service\\source\\ProxyService.Services.Proxies\\BaseServiceProxy.cs",
+              "DocumentMoniker": "C:\\repos\\github\\proxy-service\\source\\ProxyService.Services.Proxies\\BaseServiceProxy.cs",
               "RelativeDocumentMoniker": "ProxyService.Services.Proxies\\BaseServiceProxy.cs",
-              "ToolTip": "C:\\Repos\\github\\proxy-service\\source\\ProxyService.Services.Proxies\\BaseServiceProxy.cs",
+              "ToolTip": "C:\\repos\\github\\proxy-service\\source\\ProxyService.Services.Proxies\\BaseServiceProxy.cs",
               "RelativeToolTip": "ProxyService.Services.Proxies\\BaseServiceProxy.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -192,126 +274,141 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ServiceContractAttribute.cs",
-              "DocumentMoniker": "C:\\Repos\\github\\proxy-service\\source\\ProxyService.Services.Common\\ServiceContractAttribute.cs",
-              "RelativeDocumentMoniker": "ProxyService.Services.Common\\ServiceContractAttribute.cs",
-              "ToolTip": "C:\\Repos\\github\\proxy-service\\source\\ProxyService.Services.Common\\ServiceContractAttribute.cs",
-              "RelativeToolTip": "ProxyService.Services.Common\\ServiceContractAttribute.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAzAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-13T22:24:13.399Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ServiceAttribute.cs",
-              "DocumentMoniker": "C:\\Repos\\github\\proxy-service\\source\\ProxyService.Services.Common\\ServiceAttribute.cs",
-              "RelativeDocumentMoniker": "ProxyService.Services.Common\\ServiceAttribute.cs",
-              "ToolTip": "C:\\Repos\\github\\proxy-service\\source\\ProxyService.Services.Common\\ServiceAttribute.cs",
-              "RelativeToolTip": "ProxyService.Services.Common\\ServiceAttribute.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAArAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-13T22:23:37.343Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "TaskController.cs",
-              "DocumentMoniker": "C:\\Repos\\github\\proxy-service\\source\\Web\\ProxyService.Web\\Controllers\\TaskController.cs",
-              "RelativeDocumentMoniker": "Web\\ProxyService.Web\\Controllers\\TaskController.cs",
-              "ToolTip": "C:\\Repos\\github\\proxy-service\\source\\Web\\ProxyService.Web\\Controllers\\TaskController.cs",
-              "RelativeToolTip": "Web\\ProxyService.Web\\Controllers\\TaskController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAiwAsAAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-13T21:03:13.881Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "ApplicationDbContext.cs",
-              "DocumentMoniker": "C:\\Repos\\github\\proxy-service\\source\\ProxyService.Infrastructure\\ApplicationDbContext.cs",
-              "RelativeDocumentMoniker": "ProxyService.Infrastructure\\ApplicationDbContext.cs",
-              "ToolTip": "C:\\Repos\\github\\proxy-service\\source\\ProxyService.Infrastructure\\ApplicationDbContext.cs",
-              "RelativeToolTip": "ProxyService.Infrastructure\\ApplicationDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-13T21:12:26.096Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "Class1.cs",
-              "DocumentMoniker": "C:\\Repos\\github\\proxy-service\\source\\ProxyService.Infrastructure\\Class1.cs",
-              "RelativeDocumentMoniker": "ProxyService.Infrastructure\\Class1.cs",
-              "ToolTip": "C:\\Repos\\github\\proxy-service\\source\\ProxyService.Infrastructure\\Class1.cs",
-              "RelativeToolTip": "ProxyService.Infrastructure\\Class1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-13T21:12:25.439Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 13,
-              "Title": "Task.cs",
-              "DocumentMoniker": "C:\\Repos\\github\\proxy-service\\source\\ProxyService.Domain\\Entities\\Task.cs",
-              "RelativeDocumentMoniker": "ProxyService.Domain\\Entities\\Task.cs",
-              "ToolTip": "C:\\Repos\\github\\proxy-service\\source\\ProxyService.Domain\\Entities\\Task.cs",
-              "RelativeToolTip": "ProxyService.Domain\\Entities\\Task.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "TaskRepositoryUnitTests.cs",
+              "DocumentMoniker": "C:\\repos\\github\\proxy-service\\source\\ProxyService.Infrastructure.Tests\\UnitTests\\TaskRepositoryUnitTests.cs",
+              "RelativeDocumentMoniker": "ProxyService.Infrastructure.Tests\\UnitTests\\TaskRepositoryUnitTests.cs",
+              "ToolTip": "C:\\repos\\github\\proxy-service\\source\\ProxyService.Infrastructure.Tests\\UnitTests\\TaskRepositoryUnitTests.cs",
+              "RelativeToolTip": "ProxyService.Infrastructure.Tests\\UnitTests\\TaskRepositoryUnitTests.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-13T21:13:04.442Z",
+              "WhenOpened": "2024-08-21T20:58:34.647Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 12,
-              "Title": "TaskService.cs",
-              "DocumentMoniker": "C:\\Repos\\github\\proxy-service\\source\\ProxyService.Application\\Services\\TaskService.cs",
-              "RelativeDocumentMoniker": "ProxyService.Application\\Services\\TaskService.cs",
-              "ToolTip": "C:\\Repos\\github\\proxy-service\\source\\ProxyService.Application\\Services\\TaskService.cs",
-              "RelativeToolTip": "ProxyService.Application\\Services\\TaskService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-13T20:51:01.722Z",
-              "EditorCaption": ""
+              "Title": "proxyservice.metadata.v9.bin",
+              "DocumentMoniker": "C:\\repos\\github\\proxy-service\\source\\.vs\\ProjectEvaluation\\proxyservice.metadata.v9.bin",
+              "RelativeDocumentMoniker": ".vs\\ProjectEvaluation\\proxyservice.metadata.v9.bin",
+              "ToolTip": "C:\\repos\\github\\proxy-service\\source\\.vs\\ProjectEvaluation\\proxyservice.metadata.v9.bin",
+              "RelativeToolTip": ".vs\\ProjectEvaluation\\proxyservice.metadata.v9.bin",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAANdSURBVDhPbVNNbNtkGH4\u002B258b23HihLbRkq6sTTW6dOs0SsuoaDlMVdYTQxxpJ\u002BDAZVKlSXBHrBIS4sCNE\u002BI2IcS4oYkDsGobXVeKOpGidTT9b9JtzY/jJE7t2OZzGyEh7bm8sp/3fb7nfd/vI3gBBgdSPbIUn1DV7j5B4Ihp7m0Z1dyvS8uP/m6lHMPzvP8JDF84351ITH51IjH9tqz0c6pKoGlAOAw0zKz3aPnmnb8yt2fuzz/ItErAtyLGR0cvvjk2eyd17qMhSjuIZRGIIiDLgKIAnbEoeW34rZ7e3v73q5WtzPrmxqpfdyQw8urgyfTkjbn\u002BVLrdcwHbBnQdsFgMBABVBTTmwo/Jvm7am\u002By7srf7\u002BOftnZ0c5wucPTfx5cU30u3BICCxEz32r\u002BkAhnEs5oMXmBPGB5nI\u002BPioNDEx\u002BfXAQIrjzp7pS6QvT73rEyF2im/Z7zkSqaJauWXu5743ZKnMvhkfOub83OmrU0NaSB3j2l/qvHRhaJCPsgR/YJ2dQDxex9LiB99tbH2RmLt7o\u002BPbb6Y/DYdKns\u002B10UPo\u002BXU0ck9IWBLTwon4yR5NI3BZ70Fm1xfZyP5ilSs7Mw8fLpZ8\u002B9ah\u002Bdntm59/OJYMd9dLT8FRkQ2YRyxMkxzPxujbikaBWAzo6nKhiEXPaTato\u002BYZnvyz7tX3Hru0nEVU8hBRRagSBc8RXsjndjeJ20BhdwNPV5dg55Zx2qm3JULC7GHq9HWrUXfiWvBjtWa\u002BvL52ACnShKg4oFRAvljf5BU5UKT7mZm24goXEXQEnCoqByXEODISsK1r6VTH9Utx5Yr\u002B3CC1hgubULYZF7mC7t3f1Gf5ZwfFyqmu9vPp4eSZes1CoWjiYL\u002BEYr6EhOjIryeEYCQA0mhyKJgEDcuF47iYyz5f3S7VPjm6SC5VFlRKroaoIOnlOkplNumKiZBMEdFkqGEVh7wEm92Nat1GtmDYmao3tfjH0tqRQG7/ma67bfMBz3lHIVygopuwLIftXUZYUxFSZTTZlhzXw1qhaj\u002BoeNfuzS/84Nf\u002B9xa29/LbVar\u002BmC8ar3C21atSnoQVASpzEQwI2CrWvJ/WSpk/De69u78v3GqV4YXPeWR4aFAi3mVN5E6JlBOMJvKGw/1W1o17KysrzVYaA/Avt6JbNFrqL\u002B4AAAAASUVORK5CYII=",
+              "WhenOpened": "2024-08-21T21:14:10.717Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "TaskDto.cs",
-              "DocumentMoniker": "C:\\Repos\\github\\proxy-service\\source\\ProxyService.Application\\DTOs\\TaskDto.cs",
-              "RelativeDocumentMoniker": "ProxyService.Application\\DTOs\\TaskDto.cs",
-              "ToolTip": "C:\\Repos\\github\\proxy-service\\source\\ProxyService.Application\\DTOs\\TaskDto.cs",
-              "RelativeToolTip": "ProxyService.Application\\DTOs\\TaskDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 11,
+              "Title": "proxyservice.projects.v9.bin",
+              "DocumentMoniker": "C:\\repos\\github\\proxy-service\\source\\.vs\\ProjectEvaluation\\proxyservice.projects.v9.bin",
+              "RelativeDocumentMoniker": ".vs\\ProjectEvaluation\\proxyservice.projects.v9.bin",
+              "ToolTip": "C:\\repos\\github\\proxy-service\\source\\.vs\\ProjectEvaluation\\proxyservice.projects.v9.bin",
+              "RelativeToolTip": ".vs\\ProjectEvaluation\\proxyservice.projects.v9.bin",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAANdSURBVDhPbVNNbNtkGH4\u002B258b23HihLbRkq6sTTW6dOs0SsuoaDlMVdYTQxxpJ\u002BDAZVKlSXBHrBIS4sCNE\u002BI2IcS4oYkDsGobXVeKOpGidTT9b9JtzY/jJE7t2OZzGyEh7bm8sp/3fb7nfd/vI3gBBgdSPbIUn1DV7j5B4Ihp7m0Z1dyvS8uP/m6lHMPzvP8JDF84351ITH51IjH9tqz0c6pKoGlAOAw0zKz3aPnmnb8yt2fuzz/ItErAtyLGR0cvvjk2eyd17qMhSjuIZRGIIiDLgKIAnbEoeW34rZ7e3v73q5WtzPrmxqpfdyQw8urgyfTkjbn\u002BVLrdcwHbBnQdsFgMBABVBTTmwo/Jvm7am\u002By7srf7\u002BOftnZ0c5wucPTfx5cU30u3BICCxEz32r\u002BkAhnEs5oMXmBPGB5nI\u002BPioNDEx\u002BfXAQIrjzp7pS6QvT73rEyF2im/Z7zkSqaJauWXu5743ZKnMvhkfOub83OmrU0NaSB3j2l/qvHRhaJCPsgR/YJ2dQDxex9LiB99tbH2RmLt7o\u002BPbb6Y/DYdKns\u002B10UPo\u002BXU0ck9IWBLTwon4yR5NI3BZ70Fm1xfZyP5ilSs7Mw8fLpZ8\u002B9ah\u002Bdntm59/OJYMd9dLT8FRkQ2YRyxMkxzPxujbikaBWAzo6nKhiEXPaTato\u002BYZnvyz7tX3Hru0nEVU8hBRRagSBc8RXsjndjeJ20BhdwNPV5dg55Zx2qm3JULC7GHq9HWrUXfiWvBjtWa\u002BvL52ACnShKg4oFRAvljf5BU5UKT7mZm24goXEXQEnCoqByXEODISsK1r6VTH9Utx5Yr\u002B3CC1hgubULYZF7mC7t3f1Gf5ZwfFyqmu9vPp4eSZes1CoWjiYL\u002BEYr6EhOjIryeEYCQA0mhyKJgEDcuF47iYyz5f3S7VPjm6SC5VFlRKroaoIOnlOkplNumKiZBMEdFkqGEVh7wEm92Nat1GtmDYmao3tfjH0tqRQG7/ma67bfMBz3lHIVygopuwLIftXUZYUxFSZTTZlhzXw1qhaj\u002BoeNfuzS/84Nf\u002B9xa29/LbVar\u002BmC8ar3C21atSnoQVASpzEQwI2CrWvJ/WSpk/De69u78v3GqV4YXPeWR4aFAi3mVN5E6JlBOMJvKGw/1W1o17KysrzVYaA/Avt6JbNFrqL\u002B4AAAAASUVORK5CYII=",
+              "WhenOpened": "2024-08-21T21:14:12.461Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ServiceContractAttribute.cs",
+              "DocumentMoniker": "C:\\repos\\github\\proxy-service\\source\\ProxyService.Services.Common\\ServiceContractAttribute.cs",
+              "RelativeDocumentMoniker": "ProxyService.Services.Common\\ServiceContractAttribute.cs",
+              "ToolTip": "C:\\repos\\github\\proxy-service\\source\\ProxyService.Services.Common\\ServiceContractAttribute.cs",
+              "RelativeToolTip": "ProxyService.Services.Common\\ServiceContractAttribute.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-13T20:50:25.855Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-13T22:24:13.399Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 16,
+              "Title": "ServiceAttribute.cs",
+              "DocumentMoniker": "C:\\repos\\github\\proxy-service\\source\\ProxyService.Services.Common\\ServiceAttribute.cs",
+              "RelativeDocumentMoniker": "ProxyService.Services.Common\\ServiceAttribute.cs",
+              "ToolTip": "C:\\repos\\github\\proxy-service\\source\\ProxyService.Services.Common\\ServiceAttribute.cs",
+              "RelativeToolTip": "ProxyService.Services.Common\\ServiceAttribute.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-13T22:23:37.343Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\repos\\github\\proxy-service\\source\\ProxyService.Infrastructure\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "ProxyService.Infrastructure\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\repos\\github\\proxy-service\\source\\ProxyService.Infrastructure\\ApplicationDbContext.cs",
+              "RelativeToolTip": "ProxyService.Infrastructure\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-13T21:12:26.096Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\repos\\github\\proxy-service\\source\\ProxyService.Infrastructure\\Class1.cs",
+              "RelativeDocumentMoniker": "ProxyService.Infrastructure\\Class1.cs",
+              "ToolTip": "C:\\repos\\github\\proxy-service\\source\\ProxyService.Infrastructure\\Class1.cs",
+              "RelativeToolTip": "ProxyService.Infrastructure\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-13T21:12:25.439Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Task.cs",
+              "DocumentMoniker": "C:\\repos\\github\\proxy-service\\source\\ProxyService.Domain\\Entities\\Task.cs",
+              "RelativeDocumentMoniker": "ProxyService.Domain\\Entities\\Task.cs",
+              "ToolTip": "C:\\repos\\github\\proxy-service\\source\\ProxyService.Domain\\Entities\\Task.cs",
+              "RelativeToolTip": "ProxyService.Domain\\Entities\\Task.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-13T21:13:04.442Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "TaskService.cs",
+              "DocumentMoniker": "C:\\repos\\github\\proxy-service\\source\\ProxyService.Application\\Services\\TaskService.cs",
+              "RelativeDocumentMoniker": "ProxyService.Application\\Services\\TaskService.cs",
+              "ToolTip": "C:\\repos\\github\\proxy-service\\source\\ProxyService.Application\\Services\\TaskService.cs",
+              "RelativeToolTip": "ProxyService.Application\\Services\\TaskService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-13T20:51:01.722Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "TaskDto.cs",
+              "DocumentMoniker": "C:\\repos\\github\\proxy-service\\source\\ProxyService.Application\\DTOs\\TaskDto.cs",
+              "RelativeDocumentMoniker": "ProxyService.Application\\DTOs\\TaskDto.cs",
+              "ToolTip": "C:\\repos\\github\\proxy-service\\source\\ProxyService.Application\\DTOs\\TaskDto.cs",
+              "RelativeToolTip": "ProxyService.Application\\DTOs\\TaskDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-13T20:50:25.855Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Repos\\github\\proxy-service\\src\\client\\Front\\Program.cs",
+              "DocumentMoniker": "C:\\repos\\github\\proxy-service\\src\\client\\Front\\Program.cs",
               "RelativeDocumentMoniker": "..\\src\\client\\Front\\Program.cs",
-              "ToolTip": "C:\\Repos\\github\\proxy-service\\src\\client\\Front\\Program.cs",
+              "ToolTip": "C:\\repos\\github\\proxy-service\\src\\client\\Front\\Program.cs",
               "RelativeToolTip": "..\\src\\client\\Front\\Program.cs",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-13T20:34:30.389Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 24,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Repos\\github\\proxy-service\\src\\client\\ProxyService\\Front\\Program.cs",
+              "DocumentMoniker": "C:\\repos\\github\\proxy-service\\src\\client\\ProxyService\\Front\\Program.cs",
               "RelativeDocumentMoniker": "..\\src\\client\\ProxyService\\Front\\Program.cs",
-              "ToolTip": "C:\\Repos\\github\\proxy-service\\src\\client\\ProxyService\\Front\\Program.cs",
+              "ToolTip": "C:\\repos\\github\\proxy-service\\src\\client\\ProxyService\\Front\\Program.cs",
               "RelativeToolTip": "..\\src\\client\\ProxyService\\Front\\Program.cs",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-13T20:13:05.555Z"
